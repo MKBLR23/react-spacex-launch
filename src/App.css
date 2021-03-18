@@ -1,0 +1,82 @@
+.appContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.appImage {
+  margin-right: 20px;
+}
+
+.appTest {
+  height: 300px;
+  width: 500px;
+}
+
+.appButtonsContainer {
+  text-align: end;
+  margin-right: 10px;
+}
+
+.appButton {
+  border: none;
+  background-color: #215184;
+  color: white;
+  font-family: 'Brandon Grotesque';
+  margin-left: 10px;
+  padding: 8px 13px;
+}
+.appButton:hover{
+  cursor: pointer;
+}
+.appButtonSortIcon{
+  width: 10px;
+  margin-left: 2px;
+
+}
+
+.appContent {
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  /* min-width: 160px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 1px 16px;
+  z-index: 1;
+}
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdownItem{
+  color: #545454;
+}
+
+.dropdownItem:hover{
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+
+}

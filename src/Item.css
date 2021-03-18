@@ -1,0 +1,45 @@
+.itemContainer {
+  box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.4);
+
+  border-radius: 7px;
+  margin: 10px 10px 0 10px;
+}
+
+.itemNumber {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.itemName {
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 15px;
+  margin: 10px;
+  max-width: 260px;
+  /* border: 2px solid red; */
+}
+
+.itemDate {
+  margin: 0;
+  font-size: 12px;
+}
+
+.itemRocket {
+  font-weight: bold;
+  margin: 0;
+  text-align: end;
+}
+
+.itemRight {
+  margin-top: 4px;
+  margin-right: 10px;
+  display: inline-flex;
+  float: right;
+  flex-direction: column;
+}
+
+.itemElement {
+  display: inline-block;
+  color: #545454;
+}
